@@ -1,0 +1,64 @@
+# vsim -sv_seed 1 -coverage -coveranalysis -debugDB -l write_1_to_clear_test_1.log -voptargs="+acc" -assertdebug -c testbench -do "coverage save -codeAll -cvg -onexit write_1_to_clear_test.ucdb; log -r /*;run -all;" "+write_1_to_clear_test" 
+# Start time: 14:39:36 on Oct 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dut_if(fast)
+# Loading work.timer_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.dut_if(fast__2)
+# Loading work.timer_top(fast)
+# Loading work.timer_register(fast)
+# Loading work.timer_clock_divisor(fast)
+# Loading work.timer_counter(fast)
+# Loading work.timer_interrupt(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# coverage save -codeAll -cvg -onexit write_1_to_clear_test.ucdb
+#  log -r /*
+# run -all
+# 0: [environment] build
+# 100000: [stimulus] Sent packet to driver
+# 100000: [driver] Get packet from stimulus
+# 100000: [driver] Start APB transfer
+# 130000 [monitor] WRITE : addr=3 data=3
+# 130000 [monitor] Captured APB transaction -> sent to scoreboard
+# 170000: [stimulus] Sent packet to driver
+# 170000: [driver] Get packet from stimulus
+# 170000: [driver] Start APB transfer
+# 210000 [monitor] WRITE : addr=0 data=b
+# 210000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12750000: [stimulus] Sent packet to driver
+# 12750000: [driver] Get packet from stimulus
+# 12750000: [driver] Start APB transfer
+# 12790000 [monitor] READ  : addr=1 data=2
+# 12790000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12830000: [stimulus] Sent packet to driver
+# 12830000: [driver] Get packet from stimulus
+# 12830000: [driver] Start APB transfer
+# 12870000 [monitor] WRITE : addr=1 data=3
+# 12870000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12960000: [stimulus] Sent packet to driver
+# 12960000: [driver] Get packet from stimulus
+# 12960000: [driver] Start APB transfer
+# 12990000 [monitor] READ  : addr=1 data=0
+# 12990000 [monitor] Captured APB transaction -> sent to scoreboard
+# 15000000: [base_test] End simulation
+# ** Note: $finish    : ../testcase/base_test.sv(138)
+#    Time: 15 us  Iteration: 0  Instance: /testbench
+# Saving coverage database on exit...
+# End time: 14:39:38 on Oct 25,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

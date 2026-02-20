@@ -1,0 +1,302 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/qthanh/Desktop/Advanced_DV/BAITAP/project1/sim
+T_opt
+!s11d test_pkg /home/qthanh/Desktop/Advanced_DV/BAITAP/project1/sim/work 1 dut_if 1 /home/qthanh/Desktop/Advanced_DV/BAITAP/project1/sim/work 
+!s11d timer_pkg /home/qthanh/Desktop/Advanced_DV/BAITAP/project1/sim/work 1 dut_if 1 /home/qthanh/Desktop/Advanced_DV/BAITAP/project1/sim/work 
+!s110 1761377941
+V6nGzYDG[C]ZZdcFP4Q0DG0
+04 9 4 work testbench fast 0
+=1-000ae431a4f1-68fc7e95-9385a-143b3
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work -debugdb +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+Ydut_if
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1761377898
+!i10b 1
+!s100 ONjAjnYkPIPK6g]Ba3FmA3
+IO]M2Z[AJhJhN46f^0J[d83
+S1
+R0
+Z4 w1756611255
+8../tb/dut_interface.sv
+F../tb/dut_interface.sv
+!i122 0
+Z5 L0 1 0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z8 !s108 1761377898.000000
+Z9 !s107 ../testcase/disable_interrupt_test.sv|../testcase/overflow_interrupt_test.sv|../testcase/underflow_interrupt_test.sv|../testcase/timer_disable_test.sv|../testcase/stop_timer_while_run_test.sv|../testcase/write_load_while_run_test.sv|../testcase/count_down_random_value_test.sv|../testcase/count_up_random_value_test.sv|../testcase/count_down_data_test.sv|../testcase/count_up_data_test.sv|../testcase/count_down_test_div8.sv|../testcase/count_up_test_div8.sv|../testcase/count_down_test_div4.sv|../testcase/count_up_test_div4.sv|../testcase/count_down_test_div2.sv|../testcase/count_up_test_div2.sv|../testcase/stop_ker_clk_test.sv|../testcase/change_clk_div_on_run_test.sv|../testcase/clock_div_div8_test.sv|../testcase/clock_div_div4_test.sv|../testcase/clock_div_div2_test.sv|../testcase/clock_div_no_div_test.sv|../testcase/reserved_region_test.sv|../testcase/write_1_to_clear_test.sv|../testcase/reset_on_fly_test.sv|../testcase/read_write_value_test.sv|../testcase/read_default_value_test.sv|../testcase/base_test.sv|../tb/environment.sv|../tb/scoreboard.sv|../tb/coverage.sv|../tb/monitor.sv|../tb/driver.sv|../tb/stimulus.sv|../tb/packet.sv|../tb/testbench.sv|../testcase/test_pkg.sv|../tb/timer_pkg.sv|../tb/dut_interface.sv|../rtl/timer_top.v|../rtl/timer_counter.vp|../rtl/timer_interrupt.vp|../rtl/timer_clock_divisor.vp|../rtl/timer_register.vp|
+Z10 !s90 -coveropt|3|+cover=bcestf|-sv|-f|compile.f|
+!i113 0
+Z11 !s102 -coveropt 3 +cover=bcestf
+Z12 o-coveropt 3 +cover=bcestf -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -coveropt 3 +cover=bcestf -sv +incdir+../tb +incdir+../testcase -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Xtest_pkg
+Z14 !s115 dut_if
+R2
+Z15 DXx4 work 9 timer_pkg 0 22 KPQOJ`11J:[f9kh?NQnko1
+R3
+!i10b 1
+!s100 @RPPb^N4kSK_??z<N?4IY1
+IB;h9@7QPC;mR8Vi:Jc3a33
+S1
+R0
+w1761377889
+8../testcase/test_pkg.sv
+F../testcase/test_pkg.sv
+F../testcase/base_test.sv
+F../testcase/read_default_value_test.sv
+F../testcase/read_write_value_test.sv
+F../testcase/reset_on_fly_test.sv
+F../testcase/write_1_to_clear_test.sv
+F../testcase/reserved_region_test.sv
+F../testcase/clock_div_no_div_test.sv
+F../testcase/clock_div_div2_test.sv
+F../testcase/clock_div_div4_test.sv
+F../testcase/clock_div_div8_test.sv
+F../testcase/change_clk_div_on_run_test.sv
+F../testcase/stop_ker_clk_test.sv
+F../testcase/count_up_test_div2.sv
+F../testcase/count_down_test_div2.sv
+F../testcase/count_up_test_div4.sv
+F../testcase/count_down_test_div4.sv
+F../testcase/count_up_test_div8.sv
+F../testcase/count_down_test_div8.sv
+F../testcase/count_up_data_test.sv
+F../testcase/count_down_data_test.sv
+F../testcase/count_up_random_value_test.sv
+F../testcase/count_down_random_value_test.sv
+F../testcase/write_load_while_run_test.sv
+F../testcase/stop_timer_while_run_test.sv
+F../testcase/timer_disable_test.sv
+F../testcase/underflow_interrupt_test.sv
+F../testcase/overflow_interrupt_test.sv
+F../testcase/disable_interrupt_test.sv
+!i122 0
+R5
+VB;h9@7QPC;mR8Vi:Jc3a33
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+vtestbench
+R2
+R15
+DXx4 work 8 test_pkg 0 22 B;h9@7QPC;mR8Vi:Jc3a33
+R3
+!i10b 1
+!s100 ^X>dz2cbh>cB:JjBOenX]1
+IC[CX?jJSEVJNKPi1GQzCL1
+S1
+R0
+w1761357583
+8../tb/testbench.sv
+F../tb/testbench.sv
+!i122 0
+L0 3 137
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+vtimer_clock_divisor
+R2
+R3
+!i10b 1
+!s100 Y^XLM?5^2U>eJ^4KH]gM90
+I5OmMQ3oDJe6=VGCfzHGck0
+!i119 1
+S1
+R0
+R4
+8../rtl/timer_clock_divisor.vp
+F../rtl/timer_clock_divisor.vp
+!i122 0
+L0 1 9
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+vtimer_counter
+R2
+R3
+!i10b 1
+!s100 c36LRfVQbYWkMGcfC]P_03
+I<_5_Vz3iIH`lDl9_RKl<h0
+!i119 1
+S1
+R0
+R4
+8../rtl/timer_counter.vp
+F../rtl/timer_counter.vp
+!i122 0
+L0 1 14
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+vtimer_interrupt
+R2
+R3
+!i10b 1
+!s100 =LMYEg@XW^KP_K6gzI]4o1
+IZ@=N?JA2ZzbO4bPO3JLD[0
+!i119 1
+S1
+R0
+R4
+8../rtl/timer_interrupt.vp
+F../rtl/timer_interrupt.vp
+!i122 0
+L0 1 10
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+Xtimer_pkg
+R14
+R2
+R3
+!i10b 1
+!s100 GQjGaM_Rf9<bdE1IlP>_d2
+IKPQOJ`11J:[f9kh?NQnko1
+S1
+R0
+w1761377401
+8../tb/timer_pkg.sv
+F../tb/timer_pkg.sv
+F../tb/packet.sv
+F../tb/stimulus.sv
+F../tb/driver.sv
+F../tb/monitor.sv
+F../tb/coverage.sv
+F../tb/scoreboard.sv
+F../tb/environment.sv
+!i122 0
+R5
+VKPQOJ`11J:[f9kh?NQnko1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+vtimer_register
+R2
+R3
+!i10b 1
+!s100 URn_GGhc:Z<D4Q@BEmRmD2
+I?deB=Y38H=BmO]Mf0XPRF2
+!i119 1
+S1
+R0
+R4
+8../rtl/timer_register.vp
+F../rtl/timer_register.vp
+!i122 0
+L0 1 27
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1
+vtimer_top
+R2
+R3
+!i10b 1
+!s100 ]cSOZYT[=O=J7j8o53BaO1
+IjjYlG]S83jO011QCo9zGJ3
+S1
+R0
+R4
+8../rtl/timer_top.v
+F../rtl/timer_top.v
+!i122 0
+L0 1 86
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R13
+R1

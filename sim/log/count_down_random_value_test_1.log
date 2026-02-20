@@ -1,0 +1,218 @@
+# vsim -sv_seed 1 -coverage -coveranalysis -debugDB -l count_down_random_value_test_1.log -voptargs="+acc" -assertdebug -c testbench -do "coverage save -codeAll -cvg -onexit count_down_random_value_test.ucdb; log -r /*;run -all;" "+count_down_random_value_test" 
+# Start time: 14:40:19 on Oct 25,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.dut_if(fast)
+# Loading work.timer_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.dut_if(fast__2)
+# Loading work.timer_top(fast)
+# Loading work.timer_register(fast)
+# Loading work.timer_clock_divisor(fast)
+# Loading work.timer_counter(fast)
+# Loading work.timer_interrupt(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# coverage save -codeAll -cvg -onexit count_down_random_value_test.ucdb
+#  log -r /*
+# run -all
+# 0: [environment] build
+# 0: [stimulus] Sent packet to driver
+# 0: [driver] Get packet from stimulus
+# 0: [driver] Start APB transfer
+# 30000 [monitor] WRITE : addr=2 data=59
+# 30000 [monitor] Captured APB transaction -> sent to scoreboard
+# 70000: [stimulus] Sent packet to driver
+# 70000: [driver] Get packet from stimulus
+# 70000: [driver] Start APB transfer
+# 110000 [monitor] WRITE : addr=3 data=3
+# 110000 [monitor] Captured APB transaction -> sent to scoreboard
+# 150000: [stimulus] Sent packet to driver
+# 150000: [driver] Get packet from stimulus
+# 150000: [driver] Start APB transfer
+# 190000 [monitor] WRITE : addr=0 data=2
+# 190000 [monitor] Captured APB transaction -> sent to scoreboard
+# 230000: [stimulus] Sent packet to driver
+# 230000: [driver] Get packet from stimulus
+# 230000: [driver] Start APB transfer
+# 270000 [monitor] WRITE : addr=0 data=b
+# 270000 [monitor] Captured APB transaction -> sent to scoreboard
+# 2830000: [stimulus] Sent packet to driver
+# 2830000: [driver] Get packet from stimulus
+# 2830000: [driver] Start APB transfer
+# 2870000 [monitor] READ  : addr=1 data=0
+# 2870000 [monitor] Captured APB transaction -> sent to scoreboard
+########## [PASS] Underflow bit did not raise soon
+# 2970000: [stimulus] Sent packet to driver
+# 2970000: [driver] Get packet from stimulus
+# 2970000: [driver] Start APB transfer
+# 3010000 [monitor] READ  : addr=1 data=2
+# 3010000 [monitor] Captured APB transaction -> sent to scoreboard
+######### [PASS] Underflow bit triggered
+######### [PASS] Interrupt asserted
+# 3110000: [stimulus] Sent packet to driver
+# 3110000: [driver] Get packet from stimulus
+# 3110000: [driver] Start APB transfer
+# 3150000 [monitor] WRITE : addr=1 data=3
+# 3150000 [monitor] Captured APB transaction -> sent to scoreboard
+# 3190000: [stimulus] Sent packet to driver
+# 3190000: [driver] Get packet from stimulus
+# 3190000: [driver] Start APB transfer
+# 3230000 [monitor] READ  : addr=1 data=0
+# 3230000 [monitor] Captured APB transaction -> sent to scoreboard
+########### TSR cleared -> 0
+# --------------------------------------------------
+# 3270000: [stimulus] Sent packet to driver
+# 3270000: [driver] Get packet from stimulus
+# 3270000: [driver] Start APB transfer
+# 3310000 [monitor] WRITE : addr=2 data=e5
+# 3310000 [monitor] Captured APB transaction -> sent to scoreboard
+# 3350000: [stimulus] Sent packet to driver
+# 3350000: [driver] Get packet from stimulus
+# 3350000: [driver] Start APB transfer
+# 3390000 [monitor] WRITE : addr=3 data=3
+# 3390000 [monitor] Captured APB transaction -> sent to scoreboard
+# 3430000: [stimulus] Sent packet to driver
+# 3430000: [driver] Get packet from stimulus
+# 3430000: [driver] Start APB transfer
+# 3470000 [monitor] WRITE : addr=0 data=2
+# 3470000 [monitor] Captured APB transaction -> sent to scoreboard
+# 3510000: [stimulus] Sent packet to driver
+# 3510000: [driver] Get packet from stimulus
+# 3510000: [driver] Start APB transfer
+# 3550000 [monitor] WRITE : addr=0 data=b
+# 3550000 [monitor] Captured APB transaction -> sent to scoreboard
+# 6110000: [stimulus] Sent packet to driver
+# 6110000: [driver] Get packet from stimulus
+# 6110000: [driver] Start APB transfer
+# 6150000 [monitor] READ  : addr=1 data=2
+# 6150000 [monitor] Captured APB transaction -> sent to scoreboard
+########## [FAIL] Underflow bit raised too soon
+# 6190000: [stimulus] Sent packet to driver
+# 6190000: [driver] Get packet from stimulus
+# 6190000: [driver] Start APB transfer
+# 6230000 [monitor] WRITE : addr=1 data=3
+# 6230000 [monitor] Captured APB transaction -> sent to scoreboard
+# 6270000: [stimulus] Sent packet to driver
+# 6270000: [driver] Get packet from stimulus
+# 6270000: [driver] Start APB transfer
+# 6310000 [monitor] READ  : addr=1 data=0
+# 6310000 [monitor] Captured APB transaction -> sent to scoreboard
+########### TSR cleared -> 0
+# --------------------------------------------------
+# 6350000: [stimulus] Sent packet to driver
+# 6350000: [driver] Get packet from stimulus
+# 6350000: [driver] Start APB transfer
+# 6390000 [monitor] WRITE : addr=2 data=30
+# 6390000 [monitor] Captured APB transaction -> sent to scoreboard
+# 6430000: [stimulus] Sent packet to driver
+# 6430000: [driver] Get packet from stimulus
+# 6430000: [driver] Start APB transfer
+# 6470000 [monitor] WRITE : addr=3 data=3
+# 6470000 [monitor] Captured APB transaction -> sent to scoreboard
+# 6510000: [stimulus] Sent packet to driver
+# 6510000: [driver] Get packet from stimulus
+# 6510000: [driver] Start APB transfer
+# 6550000 [monitor] WRITE : addr=0 data=2
+# 6550000 [monitor] Captured APB transaction -> sent to scoreboard
+# 6590000: [stimulus] Sent packet to driver
+# 6590000: [driver] Get packet from stimulus
+# 6590000: [driver] Start APB transfer
+# 6630000 [monitor] WRITE : addr=0 data=b
+# 6630000 [monitor] Captured APB transaction -> sent to scoreboard
+# 9190000: [stimulus] Sent packet to driver
+# 9190000: [driver] Get packet from stimulus
+# 9190000: [driver] Start APB transfer
+# 9230000 [monitor] READ  : addr=1 data=2
+# 9230000 [monitor] Captured APB transaction -> sent to scoreboard
+########## [FAIL] Underflow bit raised too soon
+# 9270000: [stimulus] Sent packet to driver
+# 9270000: [driver] Get packet from stimulus
+# 9270000: [driver] Start APB transfer
+# 9310000 [monitor] WRITE : addr=1 data=3
+# 9310000 [monitor] Captured APB transaction -> sent to scoreboard
+# 9350000: [stimulus] Sent packet to driver
+# 9350000: [driver] Get packet from stimulus
+# 9350000: [driver] Start APB transfer
+# 9390000 [monitor] READ  : addr=1 data=0
+# 9390000 [monitor] Captured APB transaction -> sent to scoreboard
+########### TSR cleared -> 0
+# --------------------------------------------------
+# 9430000: [stimulus] Sent packet to driver
+# 9430000: [driver] Get packet from stimulus
+# 9430000: [driver] Start APB transfer
+# 9470000 [monitor] WRITE : addr=2 data=98
+# 9470000 [monitor] Captured APB transaction -> sent to scoreboard
+# 9510000: [stimulus] Sent packet to driver
+# 9510000: [driver] Get packet from stimulus
+# 9510000: [driver] Start APB transfer
+# 9550000 [monitor] WRITE : addr=3 data=3
+# 9550000 [monitor] Captured APB transaction -> sent to scoreboard
+# 9590000: [stimulus] Sent packet to driver
+# 9590000: [driver] Get packet from stimulus
+# 9590000: [driver] Start APB transfer
+# 9630000 [monitor] WRITE : addr=0 data=2
+# 9630000 [monitor] Captured APB transaction -> sent to scoreboard
+# 9670000: [stimulus] Sent packet to driver
+# 9670000: [driver] Get packet from stimulus
+# 9670000: [driver] Start APB transfer
+# 9710000 [monitor] WRITE : addr=0 data=b
+# 9710000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12270000: [stimulus] Sent packet to driver
+# 12270000: [driver] Get packet from stimulus
+# 12270000: [driver] Start APB transfer
+# 12310000 [monitor] READ  : addr=1 data=2
+# 12310000 [monitor] Captured APB transaction -> sent to scoreboard
+########## [FAIL] Underflow bit raised too soon
+# 12350000: [stimulus] Sent packet to driver
+# 12350000: [driver] Get packet from stimulus
+# 12350000: [driver] Start APB transfer
+# 12390000 [monitor] WRITE : addr=1 data=3
+# 12390000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12430000: [stimulus] Sent packet to driver
+# 12430000: [driver] Get packet from stimulus
+# 12430000: [driver] Start APB transfer
+# 12470000 [monitor] READ  : addr=1 data=0
+# 12470000 [monitor] Captured APB transaction -> sent to scoreboard
+########### TSR cleared -> 0
+# --------------------------------------------------
+# 12510000: [stimulus] Sent packet to driver
+# 12510000: [driver] Get packet from stimulus
+# 12510000: [driver] Start APB transfer
+# 12550000 [monitor] WRITE : addr=2 data=40
+# 12550000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12590000: [stimulus] Sent packet to driver
+# 12590000: [driver] Get packet from stimulus
+# 12590000: [driver] Start APB transfer
+# 12630000 [monitor] WRITE : addr=3 data=3
+# 12630000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12670000: [stimulus] Sent packet to driver
+# 12670000: [driver] Get packet from stimulus
+# 12670000: [driver] Start APB transfer
+# 12710000 [monitor] WRITE : addr=0 data=2
+# 12710000 [monitor] Captured APB transaction -> sent to scoreboard
+# 12750000: [stimulus] Sent packet to driver
+# 12750000: [driver] Get packet from stimulus
+# 12750000: [driver] Start APB transfer
+# 12790000 [monitor] WRITE : addr=0 data=b
+# 12790000 [monitor] Captured APB transaction -> sent to scoreboard
+# 15000000: [base_test] End simulation
+# ** Note: $finish    : ../testcase/base_test.sv(138)
+#    Time: 15 us  Iteration: 0  Instance: /testbench
+# Saving coverage database on exit...
+# End time: 14:40:21 on Oct 25,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

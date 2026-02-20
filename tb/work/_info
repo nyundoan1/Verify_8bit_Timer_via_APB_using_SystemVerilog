@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/qthanh/Desktop/Advanced_DV/BAITAP/project1/tb
+Xcoverage_sv_unit
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1761095913
+VEUKGz[0?BF^JPg9R4GIB?3
+r1
+!s85 0
+!i10b 1
+!s100 :kN2fHlUzLH^gLcNG::gP1
+IEUKGz[0?BF^JPg9R4GIB?3
+!i103 1
+S1
+R0
+w1761095913
+8/tmp/vipRI8h/66/coverage.sv
+F/tmp/vipRI8h/66/coverage.sv
+!i122 2
+L0 41 0
+Z2 OL;L;2021.2_1;73
+31
+!s108 1761095913.000000
+!s107 /tmp/vipRI8h/66/coverage.sv|
+!s90 -quiet|-lint|/tmp/vipRI8h/66/coverage.sv|
+!i113 0
+Z3 o-quiet -lint -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z4 tCvgOpt 0
+Xpacket_sv_unit
+R1
+!s110 1761103232
+VFFE9=e1Xm6FVmgBB@GT?A2
+r1
+!s85 0
+!i10b 1
+!s100 dkLZ@j9]_BSk:eE1_2JlL2
+IFFE9=e1Xm6FVmgBB@GT?A2
+!i103 1
+S1
+R0
+w1761103232
+8/tmp/vUfeWb8/4/packet.sv
+F/tmp/vUfeWb8/4/packet.sv
+!i122 3
+L0 1 0
+R2
+31
+!s108 1761103232.000000
+!s107 /tmp/vUfeWb8/4/packet.sv|
+!s90 -quiet|-lint|/tmp/vUfeWb8/4/packet.sv|
+!i113 0
+R3
+R4
